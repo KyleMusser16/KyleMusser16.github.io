@@ -20,6 +20,10 @@ h5{
 h6{
     color:darkslategrey;
 }
+a{
+    color:white;
+}
 p{
     color:darkslategrey;
+    font-size:large;
 }
