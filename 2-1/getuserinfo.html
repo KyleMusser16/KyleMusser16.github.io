@@ -1,0 +1,123 @@
+html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <style>
+        .aboutmeDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left;
+        }
+        .homebuttonDiv{
+            border:lightgray 5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:0px;
+            float:left;
+        }
+        .workhistoryDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        .portfolioDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        .topbarDiv{
+            border:4px whitesmoke solid;
+            background-color:white;
+            width:1045px;
+            height:30px;
+            margin-top:-28px;
+            position:sticky;
+        }
+        .textDiv{
+            margin-left:22px;
+            align-self:center;
+            background-color:whitesmoke;
+            border:3px black solid;
+            max-width: 1000px;
+            min-width:1000px;
+            width:1000px;
+            text-align:left;
+        }
+        .contactDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+            }
+        .getinfoDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        .borderDiv{
+            margin-left:100px;
+            width:830px;
+            height:400px;
+            border: 2px black solid;
+            background-color:grey;
+        }
+        </style>
+        <title>
+                Get info
+        </title>
+    </head>
+    <body>
+        <div class ="topbarDiv">
+            <div class ="homebuttonDiv">
+                <a href="index.html"title="Home page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:1px;">Home Page</a>
+            </div>
+            <div class = "aboutmeDiv">
+                <a href="aboutpage.html" title="About me Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:1px;">About Me Page</a>
+            </div>
+            <div class="workhistoryDiv">
+                <a href="workExperience.html" title="Work Experience page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Work Experience Page</a>
+            </div>
+            <div class="portfolioDiv">
+                <a href="portfolio.html"title="Portfolio Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Portfolio Page</a>
+            </div>
+            <div class="contactDiv">
+                <a href="contact information page.html"title="Contact Information Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Contact Information Page</a>
+            </div>
+            <div class="getinfoDiv">
+                <a href="getuserinfo.html"title="User info page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:-0.55px;">User Info Collection Page</a>
+            </div>
+        </div>
+        <div class="borderDiv">
+        <h1>
+            Please enter your information here!
+        </h1 style="color:white;">
+        <a href="privacypolicy.html"title="Privacy Policy"target="_blank"style="color:lightblue;margin-left:10px;">Privacy Policy</a>
+        <form>
+              <input type="radio" id="Yes" name="YesNo" value="Yes">
+              <label for="Yes">Yes</label><br>
+              <input type="radio" id="No" name="YesNo" value="No">
+              <label for="No">No</label><br>
+            </form> 
+        <br>
+        <form action="/action_page.php">
+            <label for="fname"style="color:white;">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname"style="color:white;">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+            <label for="email"style="color:white;">Email:</label><br>
+            <input type="text"id="email"name="email"value=""><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+          
+        </div>
+        </body>
+        </html>

@@ -2,27 +2,103 @@
 <html lang ="en">
     <head>
         <link rel="stylesheet" href="css.css">
+        <style>
+        .aboutmeDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left;
+        }
+        .homebuttonDiv{
+            border:lightgray 5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:0px;
+            float:left;
+        }
+        .workhistoryDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        .portfolioDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        .topbarDiv{
+        border:4px whitesmoke solid;
+        background-color:white;
+        width:1045px;
+        height:30px;
+        margin-top:-10px;
+        position:sticky;
+        }
+        .textDiv{
+            background-color:whitesmoke;
+            border:3px black solid;
+            max-width: 625px;
+            min-width:400px;
+            width:645;
+            align-items:center;
+        }
+        .contactDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+            }
+            .getinfoDiv{
+            border: lightgray  5px outset;
+            background-color:whitesmoke;
+            width:fit-content;
+            margin-left:5px;
+            float:left; 
+        }
+        </style>
         <title>
                 Home page
         </title>
     </head>
     <body>
+        <div class ="topbarDiv">
+            <div class ="homebuttonDiv">
+                <a href="index.html"title="Home page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:1px;">Home Page</a>
+            </div>
+            <div class = "aboutmeDiv">
+                <a href="aboutpage.html" title="About me Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:1px;">About Me Page</a>
+            </div>
+            <div class="workhistoryDiv">
+                <a href="workExperience.html" title="Work Experience page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Work Experience Page</a>
+            </div>
+            <div class="portfolioDiv">
+                <a href="portfolio.html"title="Portfolio Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Portfolio Page</a>
+            </div>
+            <div class="contactDiv">
+                <a href="contact information page.html"title="Contact Information Page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:2px;">Contact Information Page</a>
+            </div>
+            <div class="getinfoDiv">
+                <a href="getuserinfo.html"title="User info page"target="_self"style="color:black;text-decoration:none;font-size:large;letter-spacing:-0.55px;">User Info Collection Page</a>
+            </div>
+        </div>
         <h1>
             Home page
         </h1>
         <br>
-        <img src="images/image_50413825.JPG"alt="Photo of me in a suit"Style="float:right;width:400px;height:auto">
-        <h3>
+        <img src="images/image_50413825.JPG"alt="Photo of me in a suit"Style="float:right;width:400px;height:auto;border:3px black solid;margin-left:10px">
+        <b>
             About me
-        </h3>
-        <p>
-            My name is Kyle Musser, I am a student at Western High School and have been for many years. I looking at going into software engineering at Delta and eventually SVSU. I have been around computers for a long time and have always shown interest in how they operate. I do many things from Kayaking to playing video games. I am enthustastic and hard working as I lived on a farm for many years of my life. I'm good at manual labor and more technical labor as well.
-        </p>
-        <hr>
-        <h3>
-            See more
-        </h3>
-        <a href="aboutpage.html"title="About me page"target="_self">About me page</a><br>
-        <a href="workExperience.html"title="Work Experience page"target="_self">Work Experience page</a>
+        </b>
+        <div class="textDiv">
+            <p style="margin-left:10px;margin-right:10px;">
+                My name is Kyle Musser, I am a student at Western High School and have been for many years. I looking at going into software engineering at Delta and eventually SVSU. I have been around computers for a long time and have always shown interest in how they operate. I do many things from Kayaking to playing video games. I am enthustastic and hard working as I lived on a farm for many years of my life. I'm good at manual labor and more technical labor as well.
+            </p>
+        </div>
     </body>
 </html>
